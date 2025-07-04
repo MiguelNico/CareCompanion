@@ -1,7 +1,7 @@
 import os
 import google.generativeai as genai
 # Set Gemini API key from environment variable or hardcode (not recommended for production)
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyDxub6J1e3AOX6tNW6FGHo334MISfAcLUs")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyC40b1ISRksrSKb3PB5jO1je8jn1enavVk")
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Function to get advice from Gemini based on alert data
